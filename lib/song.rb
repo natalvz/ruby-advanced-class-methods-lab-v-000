@@ -56,6 +56,6 @@ class Song
     song = self.new
     song.name = new_song[1].strip
     song.artist_name = new_song[0].strip
-    
+    self.all << song
     
 end
