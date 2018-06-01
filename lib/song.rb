@@ -55,6 +55,6 @@ class Song
     new_song = name.split(/[.-]/)
     song = self.new
     song.name = new_song[1].strip
-    
+    song.artist_name
     
 end
